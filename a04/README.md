@@ -1,4 +1,4 @@
-# A02 - Cryptographic Failures
+# A04 - Insecure Design
 
 ## Introduction and background
 
