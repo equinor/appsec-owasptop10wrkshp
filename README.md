@@ -25,6 +25,18 @@ together by a team of security experts from all over the world.
 
 ## Content
 
+### Technical preparations
+
+We will use the Juice Shop as an example of vulnerable web app, to explore
+the top 10 vulnerabilities listed by OWASP.
+
+On your device - clone the following repository and verify that you are able
+to start the juice shop.
+
+- `git clone https://github.com/juice-shop/juice-shop.git`
+- `npm install && npm start`
+- Verify that the website is serving requests `http://localhost:3000`
+
 ### Introduction - background, history and acronyms
 
 Write background, history on OWASP and common acronyms.
