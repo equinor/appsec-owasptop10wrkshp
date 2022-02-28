@@ -58,7 +58,7 @@ Differences between CWE and CVE. How to interpret those.
 Start exploring the TOP 10 risk, understanding and hopefully demonstration.
 
 - [A01:2021](./a01/README.md) – Broken Access Control
-- A02:2021 – Cryptographic Failures
+- [A02:2021](./a02/README.md) – Cryptographic Failures
 - A03:2021 – Injection
 - A04:2021 – Insecure Design
 - A05:2021 – Security Misconfiguration
