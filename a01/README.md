@@ -5,7 +5,7 @@
 A broken access control leads to users that can possibly act outside their
 intended permissions. Failures typically lead to unauthorized information
 disclosure, modification, or destruction of all data or performing a business
-function outside the user's limits. 
+function outside the user's limits.
 
 ### CWEs
 
@@ -31,13 +31,15 @@ Request Forgery
 
 ## Primary defenses
 
-- Enforce Least Privileges
+- Enforce least privileges
 - Deny by default
-- Validate the Permissions on Every Request
-- Thoroughly Review the Authorization Logic of Chosen Tools and Technologies, Implementing Custom Logic if Necessary
-- Prefer Feature and Attribute Based Access Control over RBAC
-- Ensure Lookup IDs are Not Accessible Even When Guessed or Cannot Be Tampered With
-- Enforce Authorization Checks on Static Resources
+- Validate permissions on every request
+- Thoroughly review the authorization logic of chosen tools and technologies,
+implementing custom logic if necessary
+- Prefer feature and attribute based access control over RBAC
+- Ensure lookup IDs are not accessible even when guessed or cannot be
+tampered with
+- Enforce authorization checks on static resources
 - Verify that Authorization Checks are Performed in the Right Location
 - Exit Safely when Authorization Checks Fail
 - Implement Appropriate Logging
