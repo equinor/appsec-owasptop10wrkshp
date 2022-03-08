@@ -20,7 +20,7 @@ Request Forgery
 
 ## CVEs
 
->Note to self: Elaborate on some ... examples?
+Examples of CVEs in [this list.](https://www.opencve.io/cve?cwe=CWE-200)
 
 ## Examples of attacker scenarios using juice shop
 
@@ -37,14 +37,12 @@ Request Forgery
 - Thoroughly review the authorization logic of chosen tools and technologies,
 implementing custom logic if necessary
 - Prefer feature and attribute based access control over RBAC
-- Ensure lookup IDs are not accessible even when guessed or cannot be
-tampered with
+- Ensure lookup IDs are not accessible even when guessed or cannot
+be tampered with
 - Enforce authorization checks on static resources
-- Verify that Authorization Checks are Performed in the Right Location
-- Exit Safely when Authorization Checks Fail
-- Implement Appropriate Logging
-- Create Unit and Integration Test Cases for Authorization Logic
+- Verify that authorization checks are performed in the right location
+- Exit safely when authorization checks fail
+- Implement appropriate logging
+- Create unit and integration test cases for authorization logic
 
->Note to self: Elaborate on some ... examples?
-
-[More info in OWASP's Authorization cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
+More info in OWASP's [Authorization cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)

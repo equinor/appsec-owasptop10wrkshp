@@ -1,9 +1,5 @@
 # OWASP Top 10 Workshop
 
-> DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
-
-> Currently under construction - to be.
-
 ![TOP10](./resources/images/top10logo.png)
 
 **Purpose** : Construct a workshop covering the [OWASP Top 10](https://owasp.org/Top10/) 
