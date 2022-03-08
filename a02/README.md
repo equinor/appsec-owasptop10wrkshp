@@ -23,14 +23,18 @@ Notable Common Weakness Enumerations (CWEs):
 
 ## CVEs
 
->Note to self: Elaborate on some ... examples?
+Examples of CVEs :
+- [259](https://www.opencve.io/cve?cwe=CWE-259)
+- [327](https://www.opencve.io/cve?cwe=CWE-327)
+- [331](https://www.opencve.io/cve?cwe=CWE-331)
 
 ## Examples of attacker scenarios using juice shop
 
+- Weird Crypto
+- Forged Coupon
 
 ## Primary defenses
 
 - [OWASP's transport layer protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 - [OWASP's user privacy protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html)
 - [OWASP's password and cryptographic storage cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
-
