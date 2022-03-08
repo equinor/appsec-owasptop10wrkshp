@@ -20,7 +20,10 @@ Request Forgery
 
 ## CVEs
 
-Examples of CVEs in [this list.](https://www.opencve.io/cve?cwe=CWE-200)
+Examples of CVEs :
+- [200](https://www.opencve.io/cve?cwe=CWE-200)
+- [201](https://www.opencve.io/cve?cwe=CWE-201)
+- [352](https://www.opencve.io/cve?cwe=CWE-352)
 
 ## Examples of attacker scenarios using juice shop
 
