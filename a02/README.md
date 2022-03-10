@@ -30,9 +30,10 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
-- **Weird Crypto** - Unsalted MD4/MD5 hashes are barely speed-bumps to cracking
-passwords.
-- **Forged Coupon** - Manipulate shopping coupon by discovering crypto algorithm.
+- **Weird Crypto** - Unsalted MD4/MD5 hashes are barely speed-bumps to
+cracking passwords.
+- **Forged Coupon** - Manipulate shopping coupon by discovering
+crypto algorithm.
 
 ## Primary defenses
 
