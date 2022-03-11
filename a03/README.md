@@ -24,9 +24,18 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
+NB NB : PROPOSALS
 
+- **Missing encoding** - Retrieve the photo of Bjoern's cat in "melee combat-mode"
+- **Repetetive registration** - Follow the DRY principle while registering a user
+- **Delaux fraud** - Obtain a Deluxe Membership without paying for it
+- **Expired coupon** - Successfully redeem an expired campaign coupon code
+- **Payback time** - Place an order that makes you rich
 
 ## Primary defenses
 
+FIX FIX
 
-[More info in OWASP's XXXXX cheat sheet]()
+- [OWASP's transport layer protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
+- [OWASP's user privacy protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html)
+- [OWASP's password and cryptographic storage cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
