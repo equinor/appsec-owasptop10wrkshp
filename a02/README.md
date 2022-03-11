@@ -10,7 +10,7 @@ sensitive data.
 
 ### CWEs
 
-Notable Common Weakness Enumerations:
+Notable Common Weakness Enumerations (CWEs):
 
 - [CWE-259:](https://cwe.mitre.org/data/definitions/259.html)
 Use of Hard-coded Password
@@ -19,11 +19,10 @@ Broken or Risky Crypto Algorithm
 - [CWE-331:](https://cwe.mitre.org/data/definitions/331.html)
 Insufficient Entropy
 
-Notable Common Weakness Enumerations (CWEs):
-
 ## CVEs
 
 Examples of CVEs :
+
 - [259](https://www.opencve.io/cve?cwe=CWE-259)
 - [327](https://www.opencve.io/cve?cwe=CWE-327)
 - [331](https://www.opencve.io/cve?cwe=CWE-331)

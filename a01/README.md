@@ -20,7 +20,8 @@ Request Forgery
 
 ## CVEs
 
-Examples of CVEs :  
+Examples of CVEs :
+
 - [200](https://www.opencve.io/cve?cwe=CWE-200)
 - [201](https://www.opencve.io/cve?cwe=CWE-201)
 - [352](https://www.opencve.io/cve?cwe=CWE-352)
