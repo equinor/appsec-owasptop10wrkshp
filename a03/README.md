@@ -2,17 +2,21 @@
 
 ## Introduction and background
 
-Injection slides down to the third position. 94% of the applications were tested for some form of injection with a max incidence rate of 19%, an average incidence rate of 3%, and 274k occurances. Notable Common Weakness Enumerations (CWEs) included are CWE-79: Cross-site Scripting, CWE-89: SQL Injection, and CWE-73: External Control of File Name or Path.
+Injection was previously on the first position on OWASP 10. However, in 2020
+OWASP rated this to the third position. 94% of the test applications were tested
+for some form of injection with a max incidence rate of 19%, an average
+incidence rate of 3%, and 274k occurances.
+
 An application is vulnerable to attack when:
 
-    User-supplied data is not validated, filtered, or sanitized by the application.
-
-    Dynamic queries or non-parameterized calls without context-aware escaping are used directly in the interpreter.
-
-    Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.
-
-    Hostile data is directly used or concatenated. The SQL or command contains the structure and malicious data in dynamic queries, commands, or stored procedures.
-
+- User-supplied data is not validated, filtered, or sanitized by the application.
+- Dynamic queries or non-parameterized calls without context-aware
+escaping are used directly in the interpreter.
+- Hostile data is used within object-relational mapping (ORM) search
+parameters to extract additional, sensitive records.
+- Hostile data is directly used or concatenated. The SQL or command contains
+the structure and malicious data in dynamic queries, commands,
+or stored procedures.
 
 ### CWEs
 
@@ -66,7 +70,7 @@ software.
 - Use LIMIT and other SQL controls within queries to prevent mass disclosure
 of records in case of SQL injection.
 
-TODO: **FIX FIX FIX FIX FIX**
+FIXME: Not correct links and cheat sheets yet ....
 
 - [OWASP's transport layer protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 - [OWASP's user privacy protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html)
