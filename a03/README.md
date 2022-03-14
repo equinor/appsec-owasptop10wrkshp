@@ -3,7 +3,7 @@
 ## Introduction and background
 
 Injection was previously on the first position on OWASP 10. However, in 2020
-OWASP rated this to the third position. 94% of the test applications were tested
+OWASP rated this to the third position. 94% of tested applications were tested
 for some form of injection with a max incidence rate of 19%, an average
 incidence rate of 3%, and 274k occurances.
 
@@ -40,13 +40,6 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
-TODO: PROPOSALS - NOT YET READY
-
-- **Missing encoding** - Retrieve the photo of Bjoern's cat in "melee
-combat-mode"
-- **Repetetive registration** - Follow the DRY principle while registering
-a user
-- **Delaux fraud** - Obtain a Deluxe Membership without paying for it
 - **Expired coupon** - Successfully redeem an expired campaign coupon code
 - **Payback time** - Place an order that makes you rich
 
