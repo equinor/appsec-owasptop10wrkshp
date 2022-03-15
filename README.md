@@ -64,6 +64,7 @@ as attackers and discuss possible mitigation.
 - A07:2021 – Identification and Authentication Failures
 - A08:2021 – Software and Data Integrity Failures
 - A09:2021 – Security Logging and Monitoring Failures
+- A10:2021 - Server-Side Request Forgery (SSRF)
 
 ---
 
