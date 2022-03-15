@@ -5,7 +5,7 @@
 Injection was previously on the first position on OWASP 10. However, in 2020
 OWASP rated this to the third position. 94% of tested applications were tested
 for some form of injection with a max incidence rate of 19%, an average
-incidence rate of 3%, and 274k occurances.
+incidence rate of 3%, and 274k occurrences.
 
 An application is vulnerable to attack when:
 
