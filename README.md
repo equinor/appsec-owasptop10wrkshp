@@ -12,8 +12,8 @@ security vulnerabilities is vital for ensuring your code is secure at all times.
 
 ## Learning objectives
 
-- Awareness and understanding common risks concerning web apps
-- Experience in exploiting common vulnerabilities through hands-on examples
+- Awareness and understanding of common risks concerning web apps
+- Experience in exploiting common vulnerabilities by hands-on participation
 - Awareness and understanding of CWEs and CVEs
 
 ---
@@ -33,12 +33,13 @@ On your device - clone the following repository and verify that you are able
 to build the docker image and run the juice shop. (NB: If you are using Mac
 with ARM architecture (M1) there is a specific Dockerfile for those.)
 
-- `git clone` this repository => `https://github.com/juice-shop/juice-shop.git`
-- Move to the cloned directory `~/juice-shop/`
-- Intel: `docker image build . -t juiceshop -f ./Dockerfile`
-- ARM (M1): `docker image build . -t juiceshop -f ./Dockerfile.arm`
-- Run: `docker run -p 3000:3000 juiceshop`
-- Verify that the website is serving requests `http://localhost:3000`
+- `git clone` this repository: `https://github.com/juice-shop/juice-shop.git`
+- Change directory to the cloned dir: `~/juice-shop/`
+- Build docker image:
+    - Intel: `docker image build . -t juiceshop -f ./Dockerfile`
+    - ARM (M1): `docker image build . -t juiceshop -f ./Dockerfile.arm`
+- Run container: `docker run -p 3000:3000 juiceshop`
+- Verify that the website is serving requests: `http://localhost:3000`
 
 ## Content
 
