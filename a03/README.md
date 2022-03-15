@@ -45,26 +45,14 @@ Examples of CVEs :
 
 ## Primary defenses
 
-Preventing injection requires keeping data separate from commands and queries:
+OWASP's Injection prevention - [injection prevent rules](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html#injection-prevention-rules) :
 
-- The preferred option is to use a safe API, which avoids using the interpreter
-entirely, provides a parameterized interface, or migrates to Object Relational
-Mapping Tools (ORMs). **Note:** Even when parameterized, stored procedures can
-still introduce SQL injection if PL/SQL or T-SQL concatenates queries and data
-or executes hostile data with EXECUTE IMMEDIATE or exec().
-- Use positive server-side input validation. This is not a complete defense as
-many applications require special characters, such as text areas or APIs for
-mobile applications.
-- For any residual dynamic queries, escape special characters using the specific
-escape syntax for that interpreter. **Note:** SQL structures such as table
-names, column names, and so on cannot be escaped, and thus user-supplied
-structure names are dangerous. This is a common issue in report-writing
-software.
-- Use LIMIT and other SQL controls within queries to prevent mass disclosure
-of records in case of SQL injection.
+- Rule #1 (Perform proper input validation)
+- Rule #2 (Use a safe API)
+- Rule #3 (Contextually escape user data)
 
-FIXME: Not correct links and cheat sheets yet ....
+Other relevant cheat sheets: 
 
-- [OWASP's transport layer protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
-- [OWASP's user privacy protection cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html)
-- [OWASP's password and cryptographic storage cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+- [OWASP's Injection prevention](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html)
+- [OWASP's Injection prevention in Java](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html)
+- [OWASP's Query parameterization](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html)
