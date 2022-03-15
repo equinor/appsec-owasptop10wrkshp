@@ -2,7 +2,7 @@
 
 ![TOP10](./resources/images/top10logo.png)
 
-## Purpose
+## Purpose 💭
 
 The purpose of this workshop is to cover [OWASP Top 10](https://owasp.org/Top10/) 
 list of most critical risks concerning web applications. Why is it important
@@ -10,7 +10,7 @@ for you to know about these vulnerabilities? As a developer, you and your code
 are prime targets for web attacks. Fluency in the most prevalent kinds of
 security vulnerabilities is vital for ensuring your code is secure at all times. 
 
-## Learning objectives
+## Learning objectives 👩🏽‍🏫
 
 - Awareness and understanding of common risks concerning web apps
 - Experience in exploiting common vulnerabilities by hands-on participation
@@ -18,7 +18,7 @@ security vulnerabilities is vital for ensuring your code is secure at all times.
 
 ---
 
-## Technical preparations
+## Technical preparations 🛠
 
 ### Juice Shop - the example app
 
@@ -27,7 +27,7 @@ form a website. The app is an example app, presented with vulnerabilities, to
 explore, discover all for learning purposes. The _Juice Shop_ web application 
 covers all of OWASP Top 10 vulnerabilities. 
 
-### GitHub repo and Docker
+### GitHub repo and Docker 🏗
 
 On your device - clone the following repository and verify that you are able
 to build the docker image and run the juice shop. (NB: If you are using Mac
@@ -41,7 +41,13 @@ with ARM architecture (M1) there is a specific Dockerfile for those.)
 - Run container: `docker run -p 3000:3000 juiceshop`
 - Verify that the website is serving requests: `http://localhost:3000`
 
-## Content
+### Browser 🧑🏻‍💻
+
+In this workshop we use Firefox 🦊 as our browser. Please ensure you have the
+latest version installed, either [stable](https://www.mozilla.org/en-US/firefox/new/)
+or the [developer version](https://www.mozilla.org/en-US/firefox/developer/).
+
+## Content 📝
 
 ### TOP 10 Risks
 
@@ -61,7 +67,7 @@ as attackers and discuss possible mitigation.
 
 ---
 
-## What is OWASP?
+## What is OWASP? 🐝
 
 **OWASP - The Open Web Application Security Project** is an online community
 that produces freely-available articles, methodologies, documentation, tools,
