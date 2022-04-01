@@ -40,7 +40,7 @@ as attackers and discuss possible mitigation<!-- .element: style="text-align:lef
 </code>
 
 ---
-## Workshop goals 👩🏽‍🏫
+## Learning objectives 👩🏽‍🏫
 
 - Awareness and understanding of common risks concerning web apps<!-- .element: style="font-size:0.9em"-->
 - Experience in exploiting common vulnerabilities by hands-on participation<!-- .element: style="font-size:0.9em"-->
