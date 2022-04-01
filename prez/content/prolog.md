@@ -18,6 +18,7 @@ viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences<!-- .element: style="font-size:0.9em"-->
 
 ---
+<!-- .slide: data-background-image="../resources/images/top10logo.png" data-background-size="20%" data-background-position="right 2% top 2%"-->
 ## Top 10 vulnerabilities 2021
 
 In the workshop we will do a walk-through of the top 10 risks. This to get
