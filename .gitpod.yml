@@ -12,3 +12,5 @@ vscode:
   extensions:
     - wayou.vscode-todo-highlight
     - manuth.eslint-language-service
+    - dbaeumer.vscode-eslint
+
