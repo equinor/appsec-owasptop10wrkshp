@@ -1,3 +1,5 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/equinor/appsec-owasptop10wrkshp)
+
 # OWASP Top 10 Workshop
 
 ![TOP10](./resources/images/top10logo.png)
