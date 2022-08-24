@@ -2,7 +2,7 @@
 
 ## Introduction and background
 
-Injection was previously on the first position on OWASP 10. However, in 2020
+Injection was previously on the first position on OWASP 10. However, in 2021
 OWASP rated this to the third position. 94% of tested applications were tested
 for some form of injection with a max incidence rate of 19%, an average
 incidence rate of 3%, and 274k occurrences.
@@ -51,7 +51,7 @@ OWASP's Injection prevention - [injection prevent rules](https://cheatsheetserie
 - Rule #2 (Use a safe API)
 - Rule #3 (Contextually escape user data)
 
-Other relevant cheat sheets: 
+Other relevant cheat sheets:
 
 - [OWASP's Injection prevention](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html)
 - [OWASP's Injection prevention in Java](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html)
