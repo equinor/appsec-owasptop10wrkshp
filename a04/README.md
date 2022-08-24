@@ -35,7 +35,10 @@ Insufficiently Protected Credentials
 
 ## CVEs
 
->Note to self: Elaborate on some ... examples?
+- [209](https://www.opencve.io/cve?cwe=CWE-209)
+- [256](https://www.opencve.io/cve?cwe=CWE-256)
+- [501](https://www.opencve.io/cve?cwe=CWE-501)
+- [522](https://www.opencve.io/cve?cwe=CWE-522)
 
 ## Examples of attacker scenarios using juice shop
 
