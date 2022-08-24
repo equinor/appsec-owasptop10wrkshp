@@ -19,8 +19,8 @@ Improper Restriction of XML External Entity Reference
 
 ## CVEs
 
-- [16](https://www.opencve.io/cve?cwe=CWE-16)
-- [611](https://www.opencve.io/cve?cwe=CWE-611)
+- [CWE-16](https://www.opencve.io/cve?cwe=CWE-16)
+- [CWE-611](https://www.opencve.io/cve?cwe=CWE-611)
 
 ## Examples of attacker scenarios using juice shop
 
