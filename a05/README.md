@@ -31,5 +31,4 @@ _Use a deprecated B2B interface that was not properly shut down._
 
 ## Primary defenses
 
-
-[More info in OWASP's XXXXX cheat sheet]()
+[More info in OWASP's e.g. Error handling cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html)
