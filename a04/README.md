@@ -56,5 +56,7 @@ on the exposure and protection needs
 
 ## Resources
 
+- [Threat modelling manifesto](https://threatmodelingmanifesto.org/)
+- [Threat modelling info from the Equinor AppSec Team](https://equinor.github.io/appsec/resources/threat_modelling/)
 - [OWASP SAMM: Design:Security Architecture](https://owaspsamm.org/model/design/security-architecture/)
 - [OWASP SAMM: Design:Threat Assessment](https://owaspsamm.org/model/design/threat-assessment/)
