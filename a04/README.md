@@ -56,7 +56,5 @@ on the exposure and protection needs
 
 ## Resources
 
-- [OWASP SAMM: Design:Security Architecture]
-(https://owaspsamm.org/model/design/security-architecture/)
-- [OWASP SAMM: Design:Threat Assessment]
-(https://owaspsamm.org/model/design/threat-assessment/)
+- [OWASP SAMM: Design:Security Architecture](https://owaspsamm.org/model/design/security-architecture/)
+- [OWASP SAMM: Design:Threat Assessment](https://owaspsamm.org/model/design/threat-assessment/)
