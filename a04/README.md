@@ -44,4 +44,19 @@ Insufficiently Protected Credentials
 
 ## Primary defenses
 
-[More info in OWASP's XXXXX cheat sheet]()
+- Use threat modeling for critical authentication, access control, business
+logic, and key flows
+- Establish and use a secure development lifecycle with AppSec professionals to
+help evaluate and design security and privacy-related controls
+- Integrate security language and controls into user stories
+- Write unit and integration tests to validate that all critical flows are
+resistant to the threat model
+- Segregate tier layers on the system and network layers depending
+on the exposure and protection needs
+
+## Resources
+
+- [OWASP SAMM: Design:Security Architecture]
+(https://owaspsamm.org/model/design/security-architecture/)
+- [OWASP SAMM: Design:Threat Assessment]
+(https://owaspsamm.org/model/design/threat-assessment/)
