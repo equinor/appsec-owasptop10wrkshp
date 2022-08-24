@@ -45,6 +45,10 @@ Typically scenario:
 in any component can result in serious impact. Such flaws can be accidental
 (e.g., coding error) or intentional (e.g., a backdoor in a component).
 
+Juice-Shop:
+
+- Arbitrary File Write
+
 ## Primary defenses
 
 There should be a patch management process in place to:
