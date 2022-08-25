@@ -24,9 +24,9 @@ Improper Restriction of XML External Entity Reference
 
 ## Examples of attacker scenarios using juice shop
 
-- Error Handling -
+- `Error Handling` -
 _Provoke an error that is neither very gracefully nor consistently handled._
-- Deprecated Interface -
+- `Deprecated Interface` -
 _Use a deprecated B2B interface that was not properly shut down._
 
 ## Primary defenses

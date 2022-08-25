@@ -40,8 +40,8 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
-- **Expired coupon** - Successfully redeem an expired campaign coupon code
-- **Payback time** - Place an order that makes you rich
+- `Expired coupon` - Successfully redeem an expired campaign coupon code
+- `Payback time` - Place an order that makes you rich
 
 ## Primary defenses
 
