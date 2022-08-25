@@ -24,6 +24,13 @@ Server-Side Request Forgery (SSRF)
 
 - `Server-side XSS Protection` - Perform a persisted XSS attack with `<iframe src="javascript:alert(`xss`)">` bypassing a server-side security mechanism. This challenge is not available on Docker!
 
+## Example attack scenarios
+
+- `Port scan internal servers` – If the network architecture is unsegmented, attackers can map out internal networks and determine if ports are open or closed on internal servers from connection results or elapsed time to connect or reject SSRF payload connections.
+- `Sensitive data exposure` – Attackers can access local files or internal services to gain sensitive information such as `file:///etc/passwd</span>` and `http://localhost:28017/.`
+- `Access metadata storage of cloud services` – Most cloud providers have metadata storage such as `http://169.254.169.254/.` An attacker can read the metadata to gain sensitive information.
+- `Compromise internal services` – The attacker can abuse internal services to conduct further attacks such as Remote Code Execution (RCE) or Denial of Service (DoS).
+
 ## Primary defenses
 
 Possible defenses developers can implement to prevent SSRF :
@@ -42,4 +49,7 @@ Possible defenses developers can implement to prevent SSRF :
     - Don't deploy other security relevant services on front systems (e.g. OpenID). Control local traffic on these systems (e.g. localhost)
     - For frontends with dedicated and manageable user groups use network encryption (e.g. VPNs) on independent systems to consider very high protection needs
 
-[More info in OWASP's XXXXX cheat sheet]()
+More info in OWASP's cheat sheets
+
+- [OWASP - Server-Side Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [SSRF bible](https://cheatsheetseries.owasp.org/assets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet_SSRF_Bible.pdf)
