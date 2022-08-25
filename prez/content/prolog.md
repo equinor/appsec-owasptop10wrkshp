@@ -52,9 +52,11 @@ as attackers and discuss possible mitigation<!-- .element: style="text-align:lef
 ## Who are we - AppSec team
 
 - Organisation - TDI EDT ISC (Information Security Competence)
-- A team of five, which started 1st February 2020
+- A team of seven, which started 1st February 2020
 - Leading advisor - Security in software development
-- We provide training, tools, advice and practical help to software development teams
+- The team provide training, tools, advice and practical help to enable software
+development teams to think security in their daily work (SDLC)
+- Host and responsible for the Security Champions Network
 
 <div style="text-align:left; font-size:0.5em;">
 
