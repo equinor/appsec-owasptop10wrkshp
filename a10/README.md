@@ -11,7 +11,7 @@ In web applications, fetching a URL is a common scenario. As a result,
 the incidence of SSRF is increasing. Also, the severity of SSRF is becoming
 higher due to cloud services and the complexity of architectures.
 
-### CWEs
+## CWEs
 
 - [CWE-918:](https://cwe.mitre.org/data/definitions/918.html)
 Server-Side Request Forgery (SSRF)
