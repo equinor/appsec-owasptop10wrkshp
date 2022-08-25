@@ -47,8 +47,7 @@ Session Fixation
 - `Password Strength` -
 Log in with the administrator's user credentials without previously changing
 them or applying SQL Injection.
-- `GDPR Data Erasure` - 
-Log in with Chris' erased user account.
+- `GDPR Data Erasure` - Log in with Chris' erased user account.
 
 ## Primary defenses
 
