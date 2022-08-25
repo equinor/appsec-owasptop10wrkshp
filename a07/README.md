@@ -70,7 +70,7 @@ random session ID with high entropy after login. Session identifier should not
 be in the URL, be securely stored, and invalidated after logout, idle, and
 absolute timeouts.
 
-More info in OWASP's XXXXX cheat sheets :
+More info in OWASP's cheat sheets :
 
 - [OWASP Cheat Sheet: Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 - [OWASP Cheat Sheet: Credential Stuffing](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
