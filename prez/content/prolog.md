@@ -11,10 +11,9 @@ Top 10 web security vulnerabilities
 
 - Application security is a broad topic. The workshop zoom in to vulnerabilities in web 
 applications<!-- .element: style="font-size:0.9em"-->
-- Our perspective is very depended on our personal history, current
+- Our perspective is depended on experience, personal journey in security, current
 viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
-- The more we learn about the topic, the more we realise how complex it is<!-- .element: style="font-size:0.9em"-->
-- Context is important<!-- .element: style="font-size:0.9em"-->
+- The more learn about a topic, the more we realise how complex it is<!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences<!-- .element: style="font-size:0.9em"-->
 
 ---
