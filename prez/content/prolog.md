@@ -1,10 +1,10 @@
-<!-- .slide: data-background-image="https://eds-static.equinor.com/logo/equinor-logo-primary.svg#white" data-background-size="15%" data-background-position="right 2% top 2%"-->
+<!-- .slide: data-background-image="./content/images/appsec-icon.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 
 # OWASP TOP 10 - Workshop
 
 Top 10 web security vulnerabilities
 
-<img src="./content/images/appsec-icon.svg" width="10%" height="auto" display="block" margin-left="auto" margin-right="auto">
+<img src="./content/images/owasp-logo-white.svg" width="10%" height="auto" display="block" margin-left="auto" margin-right="auto">
 
 ---
 ## Disclaimer
