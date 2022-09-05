@@ -20,9 +20,11 @@ viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
 <!-- .slide: data-background-image="../resources/images/top10logo.png" data-background-size="20%" data-background-position="right 2% top 2%"-->
 ## Top 10 vulnerabilities 2021
 
-In the workshop we will do a walk-through of the top 10 risks. This to get
-familiar with type of vulnerability, some related CWEs and CVEs, exploit them
-as attackers and discuss possible mitigation<!-- .element: style="text-align:left;"-->
+- In the workshop we will do a walk-through of the top 10 risks<!-- .element: style="font-size:0.9em"-->
+- Get familiar with type of vulnerability and examples of CWE's and CVE's<!-- .element: style="font-size:0.9em"-->
+- Exploit the vulnerabilities as an attacker and discuss possible mitigation<!-- .element: style="font-size:0.9em"-->
+
+<hr>
 
 <code style="text-align:left; font-size:0.5em">
 
@@ -48,7 +50,7 @@ as attackers and discuss possible mitigation<!-- .element: style="text-align:lef
 - Inspire and connect to the Equinor #AppSec Community<!-- .element: style="font-size:0.9em"-->
 
 ---
-## Who are we - AppSec team
+## Who is - AppSec team
 
 - Organisation - TDI EDT ISC (Information Security Competence)
 - A team of seven, which started 1st February 2020
