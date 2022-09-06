@@ -12,6 +12,7 @@ Open Web Application Security Project
 This memo launched the SDL (Security Development Lifecycle) initiative and generally shook up the industry."
 
 ---
+<!-- .slide: data-background-image="./content/images/mark_curphey.jpg" data-background-size="8%" data-background-position="right 9% top 30%"-->
 
 ## ... 4 months earlier
 
@@ -23,6 +24,7 @@ Note:
 - Mark worked as with software security in S.F. and moderated a mailing list called WebAppSec
 - Was convinced of the urgent need for a collaborative project to document developers’ experience with and knowledge of web application security
 - Announced OWASP on the <code>WebAppSec</code> mailing list, registered the domain OWASP.org, paid $20 for a hosting account, and I asked people to come help
+- Source: WebAppSec e-mail list: https://marc.info/?l=webappsec&r=1&b=200109&w=2
 
 ---
 ## To-Be OWASP
