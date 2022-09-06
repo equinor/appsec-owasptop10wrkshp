@@ -15,10 +15,14 @@ This memo launched the SDL (Security Development Lifecycle) initiative and gener
 
 ## ... 4 months earlier
 
-- 24th Sept 2001 - Mark Curphey announced "**O**pen **W**eb **A**pplication **S**ecurity **P**roject"
+- 24th Sept 2001 - Mark Curphey announced **OWASP** (WebAppSec mailing list)
 - The concern _...make software security visible, so that developers everywhere could make truly informed decisions about the risks and the solutions_
 - Bill Gates’s phrase could have applied to OWASP. The objective was the same, _“Trustworthy computing”_
 
+Note: 
+- Mark worked as with software security in S.F. and moderated a mailing list called WebAppSec
+- Was convinced of the urgent need for a collaborative project to document developers’ experience with and knowledge of web application security
+- Announced OWASP on the <code>WebAppSec</code> mailing list, registered the domain OWASP.org, paid $20 for a hosting account, and I asked people to come help
 
 ---
 ## To-Be OWASP
