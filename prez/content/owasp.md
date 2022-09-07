@@ -85,3 +85,8 @@ changing the software development culture into one that produces more secure cod
 <div style="text-align:left; font-size:0.5em;">
 
 Source: https://owasp.org/www-project-top-ten/
+
+---
+### OWASP <br> Key Objective
+
+>Raise awareness on critical application security risks by ranking the top ten risks

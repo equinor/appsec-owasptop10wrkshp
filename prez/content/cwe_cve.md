@@ -22,7 +22,7 @@ Short introduction to these acronyms
 - CWE List and associated classification taxonomy serve as a language that can be used to identify and describe these weaknesses in terms of CWEs<!-- .element: style="font-size:0.9em"-->
 
 ---
-## CWE helps developers and security practitioners to
+## CWE<br>helps developers and security practitioners to ...
 
 - Describe and discuss software and hardware weaknesses in a common language
 - Check for weaknesses in existing software and hardware products
@@ -31,7 +31,21 @@ Short introduction to these acronyms
 - Prevent software and hardware vulnerabilities prior to deployment
 
 ---
-## CVE - Common Vulnerabilities and Exposures
+## CVE<br>Common Vulnerabilities and Exposures
 
 - tobe<!-- .element: style="font-size:0.9em"-->
 - tobe<!-- .element: style="font-size:0.9em"-->
+
+note:
+
+- https://www.opencve.io/cve?cwe=CWE-200
+
+---
+## CWE - Example
+
+- https://cwe.mitre.org/data/definitions/200.html
+
+---
+### CVE - Example
+
+- https://www.opencve.io/cve?cwe=CWE-200
