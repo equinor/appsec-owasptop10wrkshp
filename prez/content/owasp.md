@@ -12,7 +12,31 @@ Open Web Application Security Project
 This memo launched the SDL (Security Development Lifecycle) initiative and generally shook up the industry."
 
 ---
-<!-- .slide: data-background-image="./content/images/mark_curphey.jpg" data-background-size="8%" data-background-position="right 9% top 30%"-->
+## SDL Timeline
+
+![image](./content/images/sdl-timeline.jpg)
+
+<div style="text-align:left; font-size:0.5em;">
+
+Source: https://www.microsoft.com/en-us/securityengineering/sdl/
+
+---
+## What are the Microsoft SDL practices
+
+- ... consists of a set of practices that support security assurance and
+compliance requirements
+- ... helps developers build more secure software by reducing the number and
+severity of vulnerabilities in software, while reducing development cost 😱
+
+---
+<!-- .slide: data-background-image="./content/images/mark_curphey.jpg" data-background-size="8%" data-background-position="right 9% top 17%"-->
+
+## ... 4 months earlier
+
+<image src="./content/images/owasp-2001-announcement.jpg" width="35%"/>
+
+---
+<!-- .slide: data-background-image="./content/images/mark_curphey.jpg" data-background-size="8%" data-background-position="right 9% top 17%"-->
 
 ## ... 4 months earlier
 
@@ -24,18 +48,15 @@ Note:
 - Mark worked as with software security in S.F. and moderated a mailing list called WebAppSec
 - Was convinced of the urgent need for a collaborative project to document developers’ experience with and knowledge of web application security
 - Announced OWASP on the <code>WebAppSec</code> mailing list, registered the domain OWASP.org, paid $20 for a hosting account, and I asked people to come help
+- OWASP is a 501(c)3 non-profit US org - est. 2004
 - Source: WebAppSec e-mail list: https://marc.info/?l=webappsec&r=1&b=200109&w=2
 
 ---
-## To-Be OWASP
+## What - OWASP
 
+- Practices, methods and tools
 - Started 9th Sept 2001 - Mark Curphey<!-- .element: style="font-size:0.9em"-->
 - Mark
-- OWASP is a 501(c)3 non-profit US org - est. 2004
 - Changes in list<!-- .element: style="font-size:0.9em"-->
 - Tools/Methods<!-- .element: style="font-size:0.9em"-->
 - Overgangen fra 2017 - 2021
-- tobe<!-- .element: style="font-size:0.9em"-->
-- tobe<!-- .element: style="font-size:0.9em"-->
-
----
