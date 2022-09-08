@@ -5,9 +5,16 @@ Proposed solution to challenges
 ---
 ## A01:View Basket
 
->Challenge: View another user's shopping basket
+>Challenge: View another user's shopping basket<!-- .element: style="font-size:0.8em"-->
 
-0. abc
+<code style="font-size: 0.5em;">
+
+0. Create a new user
+1. Use browser to observe the chart API, when entering your basket
+2. http://localhost:3000/rest/basket/1 - Can I use that to view another user?
+3. Try another user name e.g. - curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
+
+</code>
 
 ---
 ## A01:Login as admin
