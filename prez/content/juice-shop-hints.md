@@ -7,7 +7,7 @@ Proposed solution to challenges
 
 >Challenge: View another user's shopping basket
 
-1. abc
+0. abc
 
 ---
 ## A01:Login as admin
@@ -16,16 +16,16 @@ Proposed solution to challenges
 
 <code style="font-size: 0.5em;">
 
-1. Go to the login page in juice shop
-2. Observe 2 input fields. Test with random characters?
-3. Let's check if the website is adding our input to the SQL
-4. Test with email: **'** e.g. pwd: 111
-5. Check Network tab in your browser and "Response" for the 500 error. There is a json with the SQL used
-6. "SELECT * FROM Users WHERE email = '**'**' AND password = '111' ..."
-7. Get it to return as TRUE (sql) or find the admin's name
-8. Now we know the SQL query related to logging in. We can send **'** OR TRUE -- as email input and any string as a password
-9. "SELECT * FROM Users WHERE email = '' OR TRUE -- AND password = '111' ..."
-10. Observe the admin user name in the response - admin@juice-sh.op
+0. Go to the login page in juice shop
+1. Observe 2 input fields. Test with random characters?
+2. Let's check if the website is adding our input to the SQL
+3. Test with email: **'** e.g. pwd: 111
+4. Check Network tab in your browser and "Response" for the 500 error. There is a json with the SQL used
+5. "SELECT * FROM Users WHERE email = '**'**' AND password = '111' ..."
+6. Get it to return as TRUE (sql) or find the admin's name
+7. Now we know the SQL query related to logging in. We can send **'** OR TRUE -- as email input and any string as a password
+8. "SELECT * FROM Users WHERE email = '' OR TRUE -- AND password = '111' ..."
+9. Observe the admin user name in the response - admin@juice-sh.op
 
 </code>
 
