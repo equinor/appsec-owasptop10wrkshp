@@ -1,10 +1,9 @@
-<!-- .slide: data-background-image="https://eds-static.equinor.com/logo/equinor-logo-primary.svg#white" data-background-size="15%" data-background-position="right 2% top 2%"-->
-
 # What is CWE / CVE?
 
 Short introduction to these acronyms
 
 ---
+<!-- .slide: data-background-image="./content/images/mitre.jpg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 ## CWE & MITRE
 
 - CWE - Common Weakness Enumeration
