@@ -12,7 +12,7 @@ Proposed solution to challenges
 0. Create a new user
 1. Use browser to observe the basket API, when entering your basket
 2. http://localhost:3000/rest/basket/1 - Can I use that to view another user?
-3. Try another user name e.g. - curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
+3. Try another user name e.g.: curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
 
 </code>
 
