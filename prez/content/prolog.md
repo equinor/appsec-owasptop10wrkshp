@@ -22,7 +22,7 @@ viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
 
 - In the workshop we will do a walk-through of the top 10 risks<!-- .element: style="font-size:0.9em"-->
 - Get familiar with type of vulnerability and examples of CWE's and CVE's<!-- .element: style="font-size:0.9em"-->
-- Exploit the vulnerabilities as an attacker and discuss possible mitigation<!-- .element: style="font-size:0.9em"-->
+- Exploit the vulnerabilities as an attacker and get familiar with juice-shop for training purposes<!-- .element: style="font-size:0.9em"-->
 
 <hr>
 
@@ -48,7 +48,6 @@ viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
 - Experience in exploiting common vulnerabilities by hands-on participation<!-- .element: style="font-size:0.9em"-->
 - Awareness and understanding of CWEs and CVEs<!-- .element: style="font-size:0.9em"-->
 - Inspire to increase understanding of #AppSec and OWASP resources<!-- .element: style="font-size:0.9em"-->
-- and connect to the Equinor #AppSec Community<!-- .element: style="font-size:0.9em"-->
 
 ---
 ## Who is - AppSec team
