@@ -47,7 +47,8 @@ viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
 - Awareness and understanding of common risks concerning web apps<!-- .element: style="font-size:0.9em"-->
 - Experience in exploiting common vulnerabilities by hands-on participation<!-- .element: style="font-size:0.9em"-->
 - Awareness and understanding of CWEs and CVEs<!-- .element: style="font-size:0.9em"-->
-- Inspire and connect to the Equinor #AppSec Community<!-- .element: style="font-size:0.9em"-->
+- Inspire to increase understanding of #AppSec and OWASP resources<!-- .element: style="font-size:0.9em"-->
+- and connect to the Equinor #AppSec Community<!-- .element: style="font-size:0.9em"-->
 
 ---
 ## Who is - AppSec team

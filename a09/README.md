@@ -68,4 +68,7 @@ suspicious activities are detected and responded to quickly.
 - Establish or adopt an incident response and recovery plan, such as National
 Institute of Standards and Technology (NIST) 800-61r2 or later.
 
-[More info in OWASP's XXXXX cheat sheet]()
+More info in OWASP's cheat sheets:
+
+- [OWASP Cheat Sheet: Application Logging Vocabulary](https://cheatsheetseries.owasp.org/cheatsheets/Application_Logging_Vocabulary_Cheat_Sheet.html)
+- [OWASP Cheat Sheet: Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
