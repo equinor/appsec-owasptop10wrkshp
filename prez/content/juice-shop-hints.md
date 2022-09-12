@@ -11,11 +11,11 @@ Proposed solution to challenges
 
 0. Create a new user
 1. Use browser to observe the basket API, when entering your basket - see HEADERS
-2. http://localhost:3000/rest/basket/6 - Can I use that to view another user?
+2. http://&lt;yourhost&gt;:3000/rest/basket/6 - Can I use that to view another user?
 3. BEARER token, check HEADER for the Authorization
-4. Try another user name e.g.:
+4. Try another user name with steps below ...
 5. Grab the Bearer Token and do export BEARER_TOKEN="..then the token here"
-6. curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
+6. curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://&lt;yourhost&gt;:3000/rest/basket/3"
 7. You can also use the "Resend" feature in Firefox to do nr 6.
 
 </code>
@@ -59,16 +59,18 @@ Proposed solution to challenges
 ---
 ## A02:Weird Crypto
 
->Inform the shop - http://localhost:3000/#/contact - about an algorithm or library it should definitely not use the way it does.
-
-From the hints in this challenge:
+>Inform the shop about an algorithm or library it should definitely not use the way it does.<br>http://&lt;yourhost&gt;:3000/#/contact
 
 <code style="font-size: 0.5em;">
 
-1. Try find what crypto algorithm the shop is using
-2. Use the "Feedback form" to notify the shop about the algorithm
-3. http://localhost:3000/#/contact
-3. Hint - Google knows -  **weak crypto algorithms**
+1. Create a new user
+2. Change password for new user with an easy one e.g 'admin123' and observe response from /change-password? (In the Firefox tool)
+3. e.g. password:"0192023a7bbd73250516f069df18b500"
+4. What type of hash is this?
+5. Use this information (hash type) to give feedback to juice-shop
+6. http://&lt;yourhost&gt;/#/contact
+7. You can also solve this by googling - **weak crypto algorithms** 
+8. Hint on 4 - **hash analyzer tunnelsup**
 
 </code>
 
