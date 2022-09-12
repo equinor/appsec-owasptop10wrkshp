@@ -67,6 +67,7 @@ From the hints in this challenge:
 
 1. Try find what crypto algorithm the shop is using
 2. Use the "Feedback form" to notify the shop about the algorithm
+3. http://localhost:3000/#/contact
 3. Hint - Google knows -  **weak crypto algorithms**
 
 </code>
@@ -78,7 +79,6 @@ From the hints in this challenge:
 
 <code style="font-size: 0.5em;">
 
-1. 
 1. Find User Jim's e-mail and his password hash
 2. Hint - see if there is vulnerability in searching products
 3. in main.js we discover - /rest/products/search?q=
@@ -190,7 +190,7 @@ From the hints in this challenge:
 ---
 ## A10:Client-side XSS Protection (XSS)
 
->Perform a **persisted** XSS attack with &lt;iframe src="javascript:alert('got you xss')"> bypassing a client-side security mechanism.
+>Perform a **persisted** XSS attack with &lt;iframe src='javascript:alert(\`got you xss\`)'> bypassing a client-side security mechanism.
 
 <code style="font-size: 0.5em;">
 
@@ -198,6 +198,6 @@ From the hints in this challenge:
 2. How to register a user with the payload instead of the users e-mail?
 3. Register a user - and inspect the request/response
 4. Use "Resend" feature in Firefox - to register a user with the payload
-5. Visit the /#/administration portal
+5. Visit the /#/administration portal as the admin to see the effect
 
 </code>
