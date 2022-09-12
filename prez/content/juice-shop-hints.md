@@ -99,6 +99,7 @@ Proposed solution to challenges
 4. Try login using the user and domain
 5. We from previous challenge that the user field is vulnerable for SQL injection
 6. Use that knowledge to login on benders account
+7. bender@juice-sh.op
 
 </code>
 
@@ -175,18 +176,19 @@ Proposed solution to challenges
 ---
 ## A10:DOM XSS
 
->Perform a **DOM XSS** attack with <iframe src="javascript:al@ert(`xss`)">.
+>Perform a **DOM XSS** attack with &lt;iframe src="javascript:alert('DOM xss')">.
 
 <code style="font-size: 0.5em;">
 
-1. Use the payload on a certain input field - Payload: <iframe src="javascript:al@ert(`xss`)">
-2. Remember to remove the @ (only for not interrupting our prez)
+1. Use the payload on a certain input field
+2. Payload: &lt;iframe src="javascript:alert('DOM xss')">
 
 </code>
 
+---
 ## A10:Client-side XSS Protection (XSS)
 
->Perform a **persisted** XSS attack with <iframe src="javascript:al@ert(`got you xss`)"> bypassing a client-side security mechanism.
+>Perform a **persisted** XSS attack with &lt;iframe src="javascript:alert('got you xss')"> bypassing a client-side security mechanism.
 
 <code style="font-size: 0.5em;">
 
