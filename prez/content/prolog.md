@@ -29,16 +29,16 @@ applications<!-- .element: style="font-size:0.9em"-->
 
 <code style="text-align:left; font-size:0.5em">
 
-- A01:2021 – Broken Access Control
-- A02:2021 – Cryptographic Failures
-- A03:2021 – Injection
+- A01:2021 – Broken Access Control - (W.Tasks)
+- A02:2021 – Cryptographic Failures - (W.Tasks)
+- A03:2021 – Injection - (W.Tasks)
 - A04:2021 – Insecure Design
-- A05:2021 – Security Misconfiguration
-- A06:2021 – Vulnerable and Outdated Components
-- A07:2021 – Identification and Authentication Failures
+- A05:2021 – Security Misconfiguration - (W.Tasks)
+- A06:2021 – Vulnerable and Outdated Components - (W.Tasks)
+- A07:2021 – Identification and Authentication Failures - (W.Tasks)
 - A08:2021 – Software and Data Integrity Failures
 - A09:2021 – Security Logging and Monitoring Failures
-- A10:2021 - Server-Side Request Forgery (SSRF)
+- A10:2021 - Server-Side Request Forgery (SSRF) - (W.Tasks)
 
 </code>
 
@@ -68,3 +68,16 @@ Sources:
 - https://github.com/equinor/isc-appsec - Documents related to our org and team
 
 </div>
+
+---
+## Agenda
+
+- 10.00 - 10.50 - Intro, OWASP, CWE/CVE and Juice-Shop
+- 11.00 - 11.50 - Risk A01
+- 12.00 - 12.50 - Risk A02 and Intro to risk A03
+- 13.00 - 13.30ish - **LUNCH - Grab'n Go**
+- 13.30 - 14.00 - Risk A03 - Demo SQL tooling (Benjamin)
+- 14.00 - 14.50 - Risk A04 / A05
+- 15.00 - 15.50 - Risk A06 / A07
+- 16.00 - 16.50 - Risk A08 / A09 / A10
+
