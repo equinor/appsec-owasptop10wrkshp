@@ -69,5 +69,35 @@ Proposed solution to challenges
 
 </code>
 
+---
+## A03:Login Jim
 
+>Log in with Jim's user account
 
+<code style="font-size: 0.5em;">
+
+1. 
+1. Find User Jim's e-mail and his password hash
+2. Hint - see if there is vulnerability in searching products
+3. in main.js we discover - /rest/products/search?q=
+4. Maybe try a SQL Injection?
+5. .... /search?q=qwert'))%20UNION%20SELECT%20id,email,password,'4','5','6','7','8','9'%20FROM%20Users--
+6. Hint - https://crackstation.net
+
+</code>
+
+---
+## A03:Login Bender
+
+>Log in with Bender's user account
+
+<code style="font-size: 0.5em;">
+
+1. Search in main.js to see if there is url related to admin
+2. We find - /rest/admin/application-configuration
+3. We notice the application domain - juice-sh.op
+4. Try login using the user and domain
+5. We from previous challenge that the user field is vulnerable for SQL injection
+6. Use that knowledge to login on benders account
+
+</code>
