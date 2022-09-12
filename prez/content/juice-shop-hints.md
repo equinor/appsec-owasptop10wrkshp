@@ -101,3 +101,15 @@ Proposed solution to challenges
 6. Use that knowledge to login on benders account
 
 </code>
+
+--
+## A05:Deprecated Interface
+
+>Deprecated Interface - Use a deprecated B2B interface that was not properly shut down.
+
+1. Use the - "Complaint page" (See menu)
+2. Click the - "Browse" - Notice the allowed file types.
+3. Look into main.js - for e.g. ZIP, which was allowed type
+4. Notice any file choices not shown behind Browse button? ( allowedMimeType )
+5. Try load an empty XML file - notice the response (devtool) in Firefox
+
