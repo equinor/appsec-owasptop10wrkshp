@@ -1,12 +1,15 @@
+# For the A07:Password Strength - challenge
 # pip install requests
 import requests
 
 # https://github.com/danielmiessler/SecLists
 # https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best1050.txt
-# Bigger files on 
+# Bigger files on https://haveibeenpwned.com/Passwords
 
 # define the webpage you want to crack
 url = "http://localhost:3000/rest/user/login/"
+# url = "https://3000-equinorplay-edcjuicesho-buf7kvvvznu.ws-eu64.gitpod.io/rest/user/login/"
+
 # We know the admin user name
 email = "admin@juice-sh.op"
 

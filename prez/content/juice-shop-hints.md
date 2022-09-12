@@ -134,3 +134,41 @@ Proposed solution to challenges
 8. Give feedback to Juice-Shop about this library (Comment box)
 
 </code>
+
+---
+## A07:Password Strength
+
+>Log in with the administrator's user credentials **without** previously changing them or applying SQL Injection.
+
+<code style="font-size: 0.5em;">
+
+1. Previous challenge (A01/A03) we noticed admin's e-mail : admin@juice-sh.op
+2. Search in main.js for anything login e.g. "/login"
+3. Notice in your browser tool - /rest/user/login
+4. Now you need a password list and something to bruteforce the password.
+5. e.g. Try many attempts  on -  /rest/user/login - with the payload {'email':'admin@juice-sh.op', 'password':'mytestpassword'}
+6. Passwords files are all over the internet - e.g.  https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best1050.txt
+
+</code>
+
+---
+## A07:GDPR
+
+>Log in with Chris' erased user account.
+
+<code style="font-size: 0.5em;">
+
+1. 
+
+</code>
+
+---
+## A10:Server-side XSS Protection
+
+> Perform a persisted XSS attack with <iframe src="javascript:alert('xss')"> bypassing a server-side 
+
+<code style="font-size: 0.5em;">
+
+1. 
+
+</code>
