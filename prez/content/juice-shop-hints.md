@@ -59,10 +59,15 @@ Proposed solution to challenges
 ---
 ## A02:Weird Crypto
 
->Unsalted MD4/MD5 hashes are barely speed-bumps to cracking passwords
+>Inform the shop about an algorithm or library it should definitely not use the way it does.
+
+<code>
+
+1. Try find what crypto algorithm the shop is using
+2. Use the "Feedback form" to notify the shop about the algorithm
+3. Hint's are **weak crypto algorithms**
+
+</code>
 
 
----
-## A02:Forged Coupon
 
->Manipulate shopping coupon by discovering crypto algorithm
