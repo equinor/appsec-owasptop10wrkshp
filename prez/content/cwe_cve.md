@@ -35,7 +35,6 @@ Short introduction to these acronyms
 - CVE program is overseen by the MITRE corporation<!-- .element: style="font-size:0.9em"-->
 - Funded by the Cybersecurity and Infrastructure Security Agency (CISA), part of the U.S. Department of Homeland Security<!-- .element: style="font-size:0.9em"-->
 - CVE entries are brief<!-- .element: style="font-size:0.9em"-->
-- They don’t include technical data, or information about risks, impacts, and fixes<!-- .element: style="font-size:0.9em"-->
 - CVE reports can come from anywhere. A vendor, a researcher, or just an astute user can discover a flaw and bring it to someone’s attention<!-- .element: style="font-size:0.9em"-->
 - A CWE (category) links often to several CVEs<!-- .element: style="font-size:0.9em"-->
 
