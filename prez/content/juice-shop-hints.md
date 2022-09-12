@@ -103,7 +103,7 @@ Proposed solution to challenges
 4. Try login using the user and domain
 5. We from previous challenge that the user field is vulnerable for SQL injection
 6. Use that knowledge to login on benders account
-7. bender@juice-sh.op
+7. bender@juice-sh.op'--;
 
 </code>
 
