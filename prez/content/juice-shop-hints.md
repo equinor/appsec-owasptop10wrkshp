@@ -102,10 +102,12 @@ Proposed solution to challenges
 
 </code>
 
---
+---
 ## A05:Deprecated Interface
 
 >Deprecated Interface - Use a deprecated B2B interface that was not properly shut down.
+
+<code style="font-size: 0.5em;">
 
 1. Use the - "Complaint page" (See menu)
 2. Click the - "Browse" - Notice the allowed file types.
@@ -113,3 +115,22 @@ Proposed solution to challenges
 4. Notice any file choices not shown behind Browse button? ( allowedMimeType )
 5. Try load an empty XML file - notice the response (devtool) in Firefox
 
+</code>
+
+---
+## A06:Vulnerable Library
+
+>Inform the shop about a vulnerable library it is using. Mention the exact library name and version in your comment
+
+<code style="font-size: 0.5em;">
+
+1. Hint - "Poison null byte" - %00 e.g. %2500 in URL
+2. Search main.js - see if you find something related to ftp
+3. There seems to be a backup file forgotten - package.json.bak
+4. Download the file above - using "Poison null byte"
+5. Investigate the file for vulnerable packages (dependencies)
+6. Use Snyk Advisor to investigate vulnerable libraries - https://snyk.io/advisor/
+7. e.g. sanitize-html 1.4.2
+8. Give feedback to Juice-Shop about this library (Comment box)
+
+</code>
