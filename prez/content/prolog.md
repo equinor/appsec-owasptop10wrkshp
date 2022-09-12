@@ -9,11 +9,12 @@ Top 10 web security vulnerabilities
 ---
 ## Disclaimer
 
-- Application security is a broad topic. The workshop zoom in to vulnerabilities in web 
+- I'm not an expert but I'm here to learn and I share what I've learned so far in the journey<!-- .element: style="font-size:0.9em"-->
+- You are an important audience to test such workshops for the AppSec team<!-- .element: style="font-size:0.9em"-->
+- Application security is a broad topic - this workshop zoom in to vulnerabilities in webapps<!-- .element: style="font-size:0.9em"-->
 applications<!-- .element: style="font-size:0.9em"-->
-- Our perspective is depended on experience, personal journey in security, current
-viewpoint and other factors<!-- .element: style="font-size:0.9em"-->
-- The more learn about a topic, the more we realise how complex it is<!-- .element: style="font-size:0.9em"-->
+- Our perspective is depended on experience, personal journey in security and many other factors<!-- .element: style="font-size:0.9em"-->
+- The more we learn about this topics, the more we realise how complex it is<!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences<!-- .element: style="font-size:0.9em"-->
 
 ---

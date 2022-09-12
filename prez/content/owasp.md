@@ -7,7 +7,7 @@ Open Web Application Security Project
 ---
 ## Memo: Trustworthy computing
 
->"To everyone at Microsoft and its subsidiaries. “Trustworthy computing,” is the highest priority for all the work we are doing.” - <br><small>B. Gates, 15th Jan 2002</small>
+>"To everyone at Microsoft and its subsidiaries. **Trustworthy computing**, is the highest priority for all the work we are doing.” - <br><small>Bill Gates, 15th Jan 2002</small>
 
 This memo launched the SDL (Security Development Lifecycle) initiative and generally shook up the industry."
 
