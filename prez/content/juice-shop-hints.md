@@ -135,7 +135,7 @@ Proposed solution to challenges
 4. Download the file above - using "Poison null byte"
 5. Investigate the file for vulnerable packages (dependencies)
 6. Use Snyk Advisor to investigate vulnerable libraries - https://snyk.io/advisor/
-7. e.g. sanitize-html 1.4.2
+7. e.g. "sanitize-html 1.4.2"
 8. Give your feedback in "Customer Feedback" - use Comment box
 
 </code>
