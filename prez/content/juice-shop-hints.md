@@ -10,9 +10,11 @@ Proposed solution to challenges
 <code style="font-size: 0.5em;">
 
 0. Create a new user
-1. Use browser to observe the basket API, when entering your basket
-2. http://localhost:3000/rest/basket/1 - Can I use that to view another user?
-3. Try another user name e.g.: curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
+1. Use browser to observe the basket API, when entering your basket - see HEADERS
+2. http://localhost:3000/rest/basket/6 - Can I use that to view another user?
+3. BEARER token, check HEADER for the Authorization
+4. Try another user name e.g.: 
+  - curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
 
 </code>
 
@@ -47,6 +49,7 @@ Proposed solution to challenges
 1. Find the administrator page
 2. User the debugger TAB look in the source => main.js
 3. Search for admin - and we will find 'administration'
+4. Remember to login as `admin` before you try the URL
 
 </code>
 
