@@ -17,8 +17,8 @@ Short introduction to these acronyms
 
 - Common Weakness Enumeration is a community-developed list<!-- .element: style="font-size:0.9em"-->
 - Common software and hardware weakness types that have security ramifications
-- “Weaknesses” are flaws, faults, bugs, or other errors in software or hardware implementation, code, design, or architecture that if left unaddressed could result in systems, networks, or hardware being vulnerable to attack<!-- .element: style="font-size:0.9em"-->
-- CWE List and associated classification taxonomy serve as a language that can be used to identify and describe these weaknesses in terms of CWEs<!-- .element: style="font-size:0.9em"-->
+  - “Weaknesses” are flaws, faults, bugs, or other errors in software or hardware implementation being vulnerable to attack<!-- .element: style="font-size:0.9em"-->
+- CWE List serve as a language that can be used to identify and describe these weaknesses in terms of CWEs<!-- .element: style="font-size:0.9em"-->
 
 ---
 ## CWE<br>helps developers and security practitioners to ...
@@ -27,20 +27,16 @@ Short introduction to these acronyms
 - Check for weaknesses in existing software and hardware products
 - Evaluate coverage of tools targeting these weaknesses
 - Leverage a common baseline standard for weakness identification, mitigation, and prevention efforts
-- Prevent software and hardware vulnerabilities prior to deployment
 
 ---
 ## CVE<br>Common Vulnerabilities and Exposures
 
 - CVE program is overseen by the MITRE corporation<!-- .element: style="font-size:0.9em"-->
-- Funded by the Cybersecurity and Infrastructure Security Agency (CISA), part of the U.S. Department of Homeland Security<!-- .element: style="font-size:0.9em"-->
+- Funded by CISA (Cybersecurity and Infrastructure Security Agency) - U.S. Department of Homeland Security<!-- .element: style="font-size:0.9em"-->
 - CVE entries are brief<!-- .element: style="font-size:0.9em"-->
-- CVE reports can come from anywhere. A vendor, a researcher, or just an astute user can discover a flaw and bring it to someone’s attention<!-- .element: style="font-size:0.9em"-->
+- CVE reports can come from anywhere
+  - Vendors, researchers, or just an astute user can discover a flaw and bring it to someone’s attention<!-- .element: style="font-size:0.9em"-->
 - A CWE (category) links often to several CVEs<!-- .element: style="font-size:0.9em"-->
-
-note:
-
-- https://www.opencve.io/cve?cwe=CWE-200
 
 ---
 ## CWE - Example

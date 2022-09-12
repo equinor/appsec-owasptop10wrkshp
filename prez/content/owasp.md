@@ -73,12 +73,11 @@ to anyone interested in improving application security
 - ... provides educational publications & resources
 
 ---
-### OWASP TOP 10
+## OWASP TOP 10
 
-- OWASP Top 10 is a standard awareness document for developers<!-- .element: style="font-size:0.9em"-->
-- It represents a broad consensus about the most critical security risks to web applications<!-- .element: style="font-size:0.9em"-->
-- Using the OWASP Top 10 is perhaps the most effective first step towards<!-- .element: style="font-size:0.9em"-->
-changing the software development culture into one that produces more secure code<!-- .element: style="font-size:0.9em"-->
+- OWASP Top 10 is an awareness document for developers<!-- .element: style="font-size:0.9em"-->
+- Represents consensus of the most critical security risks (webapps)<!-- .element: style="font-size:0.9em"-->
+- Using the OWASP Top 10 is an effective first step to change dev culture into one that produces more secure code<!-- .element: style="font-size:0.9em"-->
 
 ![image](./content/images/owasp-top10-mapping.png)
 
@@ -87,6 +86,6 @@ changing the software development culture into one that produces more secure cod
 Source: https://owasp.org/www-project-top-ten/
 
 ---
-### OWASP <br> Key Objective
+## OWASP<br>Key Objective
 
->Raise awareness on critical application security risks by ranking the top ten risks
+>Raise awareness on critical application security risks by ranking top ten risks

