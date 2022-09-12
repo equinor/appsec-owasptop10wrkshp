@@ -61,11 +61,11 @@ Proposed solution to challenges
 
 >Inform the shop about an algorithm or library it should definitely not use the way it does.
 
-<code>
+<code style="font-size: 0.5em;">
 
 1. Try find what crypto algorithm the shop is using
 2. Use the "Feedback form" to notify the shop about the algorithm
-3. Hint's are **weak crypto algorithms**
+3. Hint - Google knows -  **weak crypto algorithms**
 
 </code>
 
