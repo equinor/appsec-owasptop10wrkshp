@@ -173,12 +173,27 @@ Proposed solution to challenges
 </code>
 
 ---
-## A10:Server-side XSS Protection
+## A10:DOM XSS
 
-> Perform a persisted XSS attack with <iframe src="javascript:allert('xss')"> bypassing a server-side 
+>Perform a **DOM XSS** attack with <iframe src="javascript:al@ert(`xss`)">.
 
 <code style="font-size: 0.5em;">
 
-1. 
+1. Use the payload on a certain input field - Payload: <iframe src="javascript:al@ert(`xss`)">
+2. Remember to remove the @ (only for not interrupting our prez)
+
+</code>
+
+## A10:Client-side XSS Protection (XSS)
+
+>Perform a **persisted** XSS attack with <iframe src="javascript:al@ert(`got you xss`)"> bypassing a client-side security mechanism.
+
+<code style="font-size: 0.5em;">
+
+1. Hint - /#/administration portal from previous challenge list all users
+2. How to register a user with the payload instead of the users e-mail?
+3. Register a user - and inspect the request/response
+4. Use "Resend" feature in Firefox - to register a user with the payload
+5. Visit the /#/administration portal
 
 </code>
