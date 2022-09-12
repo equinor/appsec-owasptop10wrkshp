@@ -13,10 +13,13 @@ Proposed solution to challenges
 1. Use browser to observe the basket API, when entering your basket - see HEADERS
 2. http://localhost:3000/rest/basket/6 - Can I use that to view another user?
 3. BEARER token, check HEADER for the Authorization
-4. Try another user name e.g.: 
-  - curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
+4. Try another user name e.g.: curl -X GET -H "Authorization: Bearer \"$BEARER_TOKEN\"" "http://localhost:3000/rest/basket/3"
 
 </code>
+
+
+- Bonus: Check "main.js" and search for /api - see if you can find something related to "Users"<!-- .element: style="font-size:0.8em"-->
+- Try the API you probably found<!-- .element: style="font-size:0.8em"-->
 
 ---
 ## A01:Login as admin
@@ -53,4 +56,13 @@ Proposed solution to challenges
 
 </code>
 
+---
+## A02:Weird Crypto
 
+>Unsalted MD4/MD5 hashes are barely speed-bumps to cracking passwords
+
+
+---
+## A02:Forged Coupon
+
+>Manipulate shopping coupon by discovering crypto algorithm
