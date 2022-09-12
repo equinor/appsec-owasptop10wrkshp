@@ -178,7 +178,7 @@ From the hints in this challenge:
 ---
 ## A10:DOM XSS
 
->Perform a **DOM XSS** attack with &lt;iframe src="javascript:alert('DOM xss')">.
+>Perform a **DOM XSS** attack with<br>&lt;iframe src="javascript:alert('DOM xss')">
 
 <code style="font-size: 0.5em;">
 
@@ -190,7 +190,7 @@ From the hints in this challenge:
 ---
 ## A10:Client-side XSS Protection (XSS)
 
->Perform a **persisted** XSS attack with &lt;iframe src='javascript:alert(\`got you xss\`)'> bypassing a client-side security mechanism.
+>Perform a **persisted** XSS attack with<br>&lt;iframe src='javascript:alert(\`got you xss\`)'><br>bypassing a client-side security mechanism.
 
 <code style="font-size: 0.5em;">
 
