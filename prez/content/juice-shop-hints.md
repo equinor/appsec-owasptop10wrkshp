@@ -37,6 +37,7 @@ Proposed solution to challenges
 7. Now we know the SQL query related to logging in. We can send **'** OR TRUE -- as email input and any string as a password
 8. "SELECT * FROM Users WHERE email = '' OR TRUE -- AND password = '111' ..."
 9. Observe the admin user name in the response - admin@juice-sh.op
+10. Also take note on the SQL that is used (from the error response)
 
 </code>
 
@@ -58,7 +59,9 @@ Proposed solution to challenges
 ---
 ## A02:Weird Crypto
 
->Inform the shop about an algorithm or library it should definitely not use the way it does.
+>Inform the shop - http://localhost:3000/#/contact - about an algorithm or library it should definitely not use the way it does.
+
+From the hints in this challenge:
 
 <code style="font-size: 0.5em;">
 
