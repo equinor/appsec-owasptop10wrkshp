@@ -10,7 +10,7 @@ Top 10 web security vulnerabilities
 ## Disclaimer
 
 - I'm not an expert but I'm here to learn and I share what I've learned so far in the journey<!-- .element: style="font-size:0.9em"-->
-- You are an important audience to test such workshops for the AppSec team<!-- .element: style="font-size:0.9em"-->
+- You are an important audience for the AppSec team<!-- .element: style="font-size:0.9em"-->
 - Application security is a broad topic - this workshop zoom in to vulnerabilities in webapps<!-- .element: style="font-size:0.9em"-->
 applications<!-- .element: style="font-size:0.9em"-->
 - Our perspective is depended on experience, personal journey in security and many other factors<!-- .element: style="font-size:0.9em"-->
@@ -57,8 +57,8 @@ applications<!-- .element: style="font-size:0.9em"-->
 - A team of seven, which started 1st February 2020
 - Leading advisor - Security in software development
 - The team provide training, tools, advice and practical help to enable software
-development teams to think security in their daily work (SDLC)
-- Host and responsible for the Security Champions Network
+development teams to adopt security in their daily work (SDLC)
+- We host and are responsible for the Security Champions Network
 
 <div style="text-align:left; font-size:0.5em;">
 
@@ -70,13 +70,13 @@ Sources:
 </div>
 
 ---
-## Agenda
+## Approx agenda
 
 - 10.00 - 10.50 - Intro, OWASP, CWE/CVE and Juice-Shop
 - 11.00 - 11.50 - Risk A01
 - 12.00 - 12.50 - Risk A02 and Intro to risk A03
 - 13.00 - 13.30ish - **LUNCH - Grab'n Go**
-- 13.30 - 14.00 - Risk A03 - Demo SQL tooling (Benjamin)
+- 13.30 - 14.00 - Risk A03 - Demo SQLMap (Benjamin)
 - 14.00 - 14.50 - Risk A04 / A05
 - 15.00 - 15.50 - Risk A06 / A07
 - 16.00 - 16.50 - Risk A08 / A09 / A10

@@ -9,7 +9,7 @@ Open Web Application Security Project
 
 >"To everyone at Microsoft and its subsidiaries. **Trustworthy computing**, is the highest priority for all the work we are doing.” - <br><small>Bill Gates, 15th Jan 2002</small>
 
-This memo launched the SDL (Security Development Lifecycle) initiative and generally shook up the industry."
+This memo launched the<br>SDL (Security Development Lifecycle) initiative
 
 ---
 ## SDL Timeline
@@ -26,7 +26,7 @@ Source: https://www.microsoft.com/en-us/securityengineering/sdl/
 - ... consists of a set of practices that support security assurance and
 compliance requirements
 - ... helps developers build more secure software by reducing the number and
-severity of vulnerabilities in software, while reducing development cost 😱
+severity of vulnerabilities in software
 
 ---
 <!-- .slide: data-background-image="./content/images/mark_curphey.jpg" data-background-size="8%" data-background-position="right 9% top 17%"-->
@@ -59,6 +59,11 @@ developers’ experience with and knowledge of web application security
 domain OWASP.org, paid $20 for a hosting account, and I asked people to come help
 - OWASP is a 501(c)3 non-profit US org - est. 2004
 - Source: WebAppSec e-mail list: https://marc.info/?l=webappsec&r=1&b=200109&w=2
+
+---
+## Mr. Hus - 🇳🇴
+
+![image](./content/images/mrhus.jpg)
 
 ---
 ## What - OWASP
