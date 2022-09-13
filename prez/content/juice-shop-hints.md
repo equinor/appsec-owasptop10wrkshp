@@ -83,8 +83,8 @@ Proposed solution to challenges
 
 1. Search in main.js to see if there is url related to admin
 2. We find - /rest/admin/application-configuration
-3. We notice the application domain - juice-sh.op
-4. Try login using the user and domain
+3. We notice the application domain - juice-sh.op - in the response (json)
+4. Try login using with the user and the domain we discovered
 5. We from previous challenge that the user field is vulnerable for SQL injection
 6. Use that knowledge to login on benders account
 7. bender@juice-sh.op'--;
@@ -172,7 +172,7 @@ Proposed solution to challenges
 6. Inspect the response - Notice the table "Users"
 7. Notice the column "DeletedAt" in talbe "Users"
 8. Get the deltedAt, email and username
-9. /rest/products/search?q=blabla'))UNION%20select%20deletedAt,email,username,4,5,6,7,8,9%20from%20users--
+9. /rest/products/search?q=blabla'))UNION%20select%201,email,username,4,5,6,7,8,deletedAt%20from%20users--
 10. Inspect chris.pike's info - he seem to be deleted
 11. Login with Chris'es e-mail with knowledge from previous injection info - chris.pike@juice-sh.op'--;
 
@@ -197,10 +197,14 @@ Proposed solution to challenges
 
 <code style="font-size: 0.5em;">
 
-1. Hint - /#/administration portal from previous challenge list all users
-2. How to register a user with the payload instead of the users e-mail?
-3. Register a user - and inspect the request/response
-4. Use "Resend" feature in Firefox - to register a user with the payload
-5. Visit the /#/administration portal as the admin to see the effect
+0. Not available using GitPod or Docker - you must pull the source
+1. https://github.com/juice-shop/juice-shop#from-sources
+2. npm install && npm start
+3. Hint - /#/administration portal from previous challenge list all users
+4. How to register a user with the payload instead of the users e-mail?
+5. Register a user - and inspect the request/response
+6. Use "Resend" feature in Firefox - to register a user with the payload
+7. Payload: &lt;iframe src='javascript:alert(\`got you xss\`)'>
+8. Visit the /#/administration portal as the admin to see the effect
 
 </code>
