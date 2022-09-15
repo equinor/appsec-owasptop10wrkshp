@@ -50,8 +50,6 @@ Juice-Shop:
 - `Vulnerable Library` -
 Inform the shop about a vulnerable library it is using. Mention the exact
 library name and version in your comment.
-- `Arbitrary File Write` -
-Overwrite the Legal Information file. This challenge is not available on Docker
 
 ## Primary defenses
 

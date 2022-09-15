@@ -28,11 +28,10 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
-- `Login as admin` - Log in with the administrator's user account.
-- `Admin Section` - Access the administration section of the juice store
-- `View Basket` - View another user's shopping basket
-- `SSRF` - Request a hidden resource on server through server
-
+- **`Login as admin`** - Log in with the administrator's user account
+- **`Admin Section`** - Access the administration section of the juice store
+- **`View Basket`** - View another user's shopping basket
+ 
 ## Primary defenses
 
 - Enforce least privileges

@@ -40,6 +40,12 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
+- **`Login Bender`** - Log in with Bender's user account
+  - Use domain name and user name - (find domain name in application-configuration)<!-- .element: style="font-size:0.8em"-->
+  - You are familiar with the vulnerability in the e-mail field<!-- .element: style="font-size:0.8em"-->
+- **`Login Jim`** - Log in with Jim's user account.
+  - Hint injection vulnerability in the search box<!-- .element: style="font-size:0.8em"-->
+  - A user table named User with columns id,email,password exist<!-- .element: style="font-size:0.8em"-->
 - `Expired coupon` - Successfully redeem an expired campaign coupon code
 - `Payback time` - Place an order that makes you rich
 

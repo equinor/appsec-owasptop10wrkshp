@@ -22,7 +22,11 @@ Server-Side Request Forgery (SSRF)
 
 ## Examples of attacker scenarios using juice shop
 
-- `Server-side XSS Protection` - Perform a persisted XSS attack with `<iframe src="javascript:alert(`xss`)">` bypassing a server-side security mechanism. This challenge is not available on Docker!
+- `Server-side XSS Protection` - Perform a persisted XSS attack with `<iframe src="javascript:alert(`xss`)">` bypassing a server-side security mechanism. 
+- **DOM XSS** - Perform a _DOM_ XSS attack with &lt;iframe src="javascript:alert(\`xss\`)">
+  - **Client-side XSS Protection (XSS)** - Perform a _persisted_ XSS attack with &lt;iframe src="javascript:alert(\`xss\`)"> bypassing a client-side security mechanism
+    - Hint: Register a user - Resend feature in Firefox
+    - /#/administration portal from previous challenge list all users
 
 ## Example attack scenarios
 

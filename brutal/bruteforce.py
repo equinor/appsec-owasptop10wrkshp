@@ -30,4 +30,3 @@ for password in file.readlines():
         print("[*] Password found: %s " % password)
         print(send_data_url.content)
         break
-

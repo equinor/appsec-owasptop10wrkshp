@@ -29,8 +29,10 @@ Examples of CVEs :
 
 ## Examples of attacker scenarios using juice shop
 
-- `Weird Crypto` - Unsalted MD4/MD5 hashes are barely speed-bumps to
-cracking passwords.
+- **`Weird Crypto`** - Inform the shop about an algorithm or library it should definitely not use the way it does.
+  - Hint: What is known weak cryptographic algorithms?<!-- .element: style="font-size:0.8em"-->
+  - Create a new juice-shop user and change password for your new user with an easy one e.g 'admin123' and observe response from /change-password (In the Firefox tool)<!-- .element: style="font-size:0.8em"-->
+  - For feedback use http://&lt;yourhost&gt;/#/contact<!-- .element: style="font-size:0.8em"-->
 - `Forged Coupon` - Manipulate shopping coupon by discovering
 crypto algorithm.
 
