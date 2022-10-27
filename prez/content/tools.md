@@ -1,6 +1,4 @@
-## Ymse
-
-> Placeholder of info
+# How to run Juice-Shop<br>and _other_ nice tools
 
 ---
 ## Run Juice-Shop on Docker 🏗
