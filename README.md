@@ -1,4 +1,5 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/equinor/appsec-owasptop10wrkshp)
+
 [![Known Vulnerabilities](https://snyk.io/test/github/equinor/appsec-owasptop10wrkshp/badge.svg)](https://snyk.io/test/github/equinor/appsec-owasptop10wrkshp)
 
 # OWASP Top 10 Workshop
