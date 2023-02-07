@@ -62,4 +62,4 @@ There should be a patch management process in place to:
 
 Ensure an ongoing plan for monitoring, triaging, and applying updates or configuration changes for the lifetime of the application or portfolio.
 
-[More info in OWASP's XXXXX cheat sheet]()
+[OWASP's Vulnerable Dependency Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html)
