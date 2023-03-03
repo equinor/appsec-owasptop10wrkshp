@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="./content/images/appsec-icon.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
+<!-- .slide: data-background-image="./content/images/bouvet-sec-champ-f9ead4.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 
 # OWASP TOP 10 - Workshop
 
