@@ -2,4 +2,10 @@
 
 # Juice-Shop Intro
 
-`https://github.com/juice-shop/juice-shop`
+`https://github.com/bouvet/juice-shop-playground`
+
+Note:
+
+- Show Juice Shop launch
+- Show FireFox inspect, source, Resend feature
+- Tell them how GitPod works. It will time out, tell what to do then
