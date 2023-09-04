@@ -30,17 +30,19 @@ form a website. The app is an example app, presented with vulnerabilities, to
 explore, discover all for learning purposes. The _Juice Shop_ web application 
 covers all of OWASP Top 10 vulnerabilities. 
 
-### GitHub repo
+### Prerequisites 🧑🏻‍💻
 
-We will provide you with a link where you can get access after the workshop has begun. But if you want to host it locally, there is nothing wrong with that! [Juice Shop on GitHub](https://github.com/juice-shop/juice-shop#from-sources) will be the correct place to check out. You have many choices, but the easiest might be to either use GitPod Docker or Node.
+When attending this workshop, please bring your laptop.
 
-### Browser 🧑🏻‍💻
-
-In this workshop we use Firefox 🦊 as our browser. Please ensure you have the
+We use Firefox 🦊 as our browser. Please ensure you have the
 latest version installed, either [stable](https://www.mozilla.org/en-US/firefox/new/)
 or the [developer version](https://www.mozilla.org/en-US/firefox/developer/).
 
 Edge works as well in a pickle.
+
+### GitHub repo
+
+We will provide you with a link where you can get access after the workshop has begun. But if you want to host it locally, there is nothing wrong with that! [Juice Shop on GitHub](https://github.com/juice-shop/juice-shop#from-sources) will be the correct place to check out. You have many choices, but the easiest might be to either use GitPod Docker or Node.
 
 ## Content 📝
 
