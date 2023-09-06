@@ -142,3 +142,17 @@ masked by default and is not protected by the no_log feature when using the
 sub-option feature of the basic.py module. This flaw allows an attacker to
 obtain sensitive information. The highest threat from this vulnerability is to
 confidentiality. 
+
+---
+
+## How to start presentation
+
+To start the presentation, "Live server" extension in Visual Studio Code is used.
+After this is installed, a button on the toolbar in the bottom of Visual Studio Code with the name of "Go Live" will appear.
+Press this and select the "Prez" folder when the browser opens in order to start a local presentation.
+
+## Export as PDF
+
+In order to export the presentation as PDF, you need to have decktape installed.
+The command to export this using DeckTape is: decktape reveal --size 1920x1080 http://localhost:5500/prez OwaspWorkshop.pdf
+Note: the localhost url needs to match the one you're hosting the presentation with in the step above.
