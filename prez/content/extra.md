@@ -1,13 +1,18 @@
 # Extra tasks
 
 - **`Deluxe Fraud`** - Obtain a Deluxe Membership without paying for it
-  - Hint: Go to the payment page for a deluxe membership and try paying through different methods  <!-- .element: style="font-size:0.8em"-->
+  - Hint: Go to the payment page for a deluxe membership and try paying through different methods <!-- .element: style="font-size:0.8em"-->
   - Try inspecting the requests that go out for each of these methods, using the browser's developer tools <!-- .element: style="font-size:0.8em"-->
   - Maybe playing around with the parameters in these requests could reveal something interesting <!-- .element: style="font-size:0.8em"--> <!-- .element: class="fragment" -->
 
 Note:
 
 - Show hint after 4 minutes
+
+---
+
+- **`Manipulate Basket`** - Put an additional product into another user’s shopping basket
+  - Hint: What is JSON polution? <!-- .element: style="font-size:0.8em"-->
 
 ---
 
