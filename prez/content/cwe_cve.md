@@ -8,13 +8,10 @@ Short introduction to these acronyms
 
 - CWE - Common Weakness Enumeration
 - The MITRE Corporation (1958): American none-profit organization <!-- .element: style="font-size:0.9em"-->
-- Supports various U.S. government agencies  <!-- .element: style="font-size:0.9em"-->
 - Began working on the issue of categorizing software weaknesses as early 1999 <!-- .element: style="font-size:0.9em"-->
 - First released 2006 <!-- .element: style="font-size:0.9em"-->
 
 Note:
-
-- 3: Supports various governments: in the aviation, defense, healthcare, homeland security, and cybersecurity fields
 
 ---
 

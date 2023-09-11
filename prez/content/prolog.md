@@ -10,11 +10,11 @@ Top 10 web security vulnerabilities
 
 ## Disclaimer
 
-- I'm not an expert <!-- .element: style="font-size:0.9em"-->
+- We are not experts <!-- .element: style="font-size:0.9em"-->
 - You are an important audience <!-- .element: style="font-size:0.9em"-->
 - Application security is a broad topic <!-- .element: style="font-size:0.9em"-->
 - Our perspective is depended on experience, personal journey within security and many other factors <!-- .element: style="font-size:0.9em"-->
-- The more you learn, the more you realise how complex it is <!-- .element: style="font-size:0.9em"-->
+- The more you learn, the more you realise how complex security it is <!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences <!-- .element: style="font-size:0.9em"-->
 
 Note:
