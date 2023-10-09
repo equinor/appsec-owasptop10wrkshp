@@ -2,7 +2,7 @@
 
 # Juice-Shop Intro
 
-`https://juice-balancer-scores.apps.cpj30fve.northeurope.aroapp.io/balancer/`
+`https://github.com/juice-shop/juice-shop`
 
 Note:
 
