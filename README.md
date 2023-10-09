@@ -30,25 +30,19 @@ form a website. The app is an example app, presented with vulnerabilities, to
 explore, discover all for learning purposes. The _Juice Shop_ web application 
 covers all of OWASP Top 10 vulnerabilities. 
 
-### GitHub repo and Docker 🏗
+### Prerequisites 🧑🏻‍💻
 
-On your device - clone the following repository and verify that you are able
-to build the docker image and run the juice shop. (NB: If you are using Mac
-with ARM architecture (M1) there is a specific Dockerfile for those.)
+When attending this workshop, please bring your laptop.
 
-- `git clone` this repository: `https://github.com/juice-shop/juice-shop.git`
-- Change directory to the cloned dir: `~/juice-shop/`
-- Build docker image:
-    - Intel: `docker image build . -t juiceshop -f ./Dockerfile`
-    - ARM (M1): `docker image build . -t juiceshop -f ./Dockerfile.arm`
-- Run container: `docker run -p 3000:3000 juiceshop`
-- Verify that the website is serving requests: `http://localhost:3000`
-
-### Browser 🧑🏻‍💻
-
-In this workshop we use Firefox 🦊 as our browser. Please ensure you have the
+We use Firefox 🦊 as our browser. Please ensure you have the
 latest version installed, either [stable](https://www.mozilla.org/en-US/firefox/new/)
 or the [developer version](https://www.mozilla.org/en-US/firefox/developer/).
+
+Edge works as well in a pickle.
+
+### GitHub repo
+
+We will provide you with a link where you can get access after the workshop has begun. But if you want to host it locally, there is nothing wrong with that! [Juice Shop on GitHub](https://github.com/juice-shop/juice-shop#from-sources) will be the correct place to check out. You have many choices, but the easiest might be to either use GitPod Docker or Node.
 
 ## Content 📝
 
@@ -148,3 +142,17 @@ masked by default and is not protected by the no_log feature when using the
 sub-option feature of the basic.py module. This flaw allows an attacker to
 obtain sensitive information. The highest threat from this vulnerability is to
 confidentiality. 
+
+---
+
+## How to start presentation
+
+To start the presentation, "Live server" extension in Visual Studio Code is used.
+After this is installed, a button on the toolbar in the bottom of Visual Studio Code with the name of "Go Live" will appear.
+Press this and select the "Prez" folder when the browser opens in order to start a local presentation.
+
+## Export as PDF
+
+In order to export the presentation as PDF, you need to have decktape installed.
+The command to export this using DeckTape is: decktape reveal --size 1920x1080 http://localhost:5500/prez OwaspWorkshop.pdf
+Note: the localhost url needs to match the one you're hosting the presentation with in the step above.
