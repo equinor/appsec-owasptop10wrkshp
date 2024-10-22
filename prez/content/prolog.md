@@ -14,7 +14,7 @@ Top 10 web security vulnerabilities
 - You are an important audience <!-- .element: style="font-size:0.9em"-->
 - Application security is a broad topic <!-- .element: style="font-size:0.9em"-->
 - Our perspective is depended on experience, personal journey within security and many other factors <!-- .element: style="font-size:0.9em"-->
-- The more you learn, the more you realise how complex security it is <!-- .element: style="font-size:0.9em"-->
+- The more you learn, the more you realize how complex security it is <!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences <!-- .element: style="font-size:0.9em"-->
 
 Note:
@@ -29,7 +29,6 @@ Note:
 
 - We will do a walk-through of the top 10 risks <!-- .element: style="font-size:0.9em"-->
 - Different types of vulnerabilities <!-- .element: style="font-size:0.9em"-->
-- Examples of CWE's and CVE's <!-- .element: style="font-size:0.9em"-->
 - Exploit the vulnerabilities as an attacker and get familiar with juice-shop for training purposes <!-- .element: style="font-size:0.9em"-->
 
 <hr>
@@ -55,7 +54,6 @@ Note:
 
 - Awareness and understanding of common risks concerning web apps <!-- .element: style="font-size:0.9em"-->
 - Experience in exploiting common vulnerabilities by hands-on participation <!-- .element: style="font-size:0.9em"-->
-- Awareness and understanding of CWEs and CVEs <!-- .element: style="font-size:0.9em"-->
 - Inspire to increase understanding of #AppSec and OWASP resources <!-- .element: style="font-size:0.9em"-->
 
 ---
@@ -73,7 +71,6 @@ development teams to adopt security in their daily work (SSDLC)
 Sources:
 
 - https://appsec.equinor.com/ - Documents related to AppSec community in Equinor
-- https://github.com/equinor/isc-appsec - Documents related to our org and team
 
 </div>
 
@@ -82,18 +79,18 @@ Sources:
 ## What is - Security Champions
 
 - A community to promote secure development
-- 199 members
+- 250 members
 - Aim to train and give tools to it's members to adopt security in their daily work (SSDLC)
 - Be the voice of security within their team
   - Not their responsibility!
-- A safe community, there to help
+- A _safe_ community, there to help
 - Merch!
 
 ---
 
 ## Approx agenda
 
-- 09.00 - 09.50 - Intro, OWASP, CWE/CVE and Juice-Shop
+- 09.00 - 09.50 - Intro, OWASP and Juice-Shop
 - 10.00 - 10.50 - Risk A01
 - 11.00 - 11.50 - Risk A02 and Intro to risk A03
 - 12.00 - 12.30ish - **LUNCH**

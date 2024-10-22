@@ -5,8 +5,8 @@
 - Mission: **No more insecure software**
 - Open community
   - Open source
-- Supports the building of impactful projects
 - Develops & nurtures communities through events and chapter meetings worldwide
+- AppSec has a OWASP Project: [Red & Blue TM](https://github.com/OWASP/www-project-rbtm)
 
 Note:
 
@@ -18,7 +18,7 @@ Note:
 ## OWASP TOP 10
 
 - Awareness document for developers <!-- .element: style="font-size:0.9em"-->
-- Represents consensus of the most critical security risks (webapps) <!-- .element: style="font-size:0.9em"-->
+- Represents consensus of the most critical security risks (WebApps) <!-- .element: style="font-size:0.9em"-->
 - Effective first step to change dev culture into one that produces more secure code <!-- .element: style="font-size:0.9em"-->
 
 ![image](./content/images/owasp-top10-mapping.png)

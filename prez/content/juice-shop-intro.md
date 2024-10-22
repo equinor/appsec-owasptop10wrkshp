@@ -2,7 +2,9 @@
 
 # Juice-Shop Intro
 
-`https://github.com/juice-shop/juice-shop`
+`replace with url from kubernetes here`
+
+Create a unique team name. Remember this one, as it's your login
 
 Note:
 
