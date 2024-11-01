@@ -12,7 +12,7 @@
 
 ---
 
-## More informatino
+## More information
 
 - Visit appsec.equinor.com for guidelines
 - Consider being a Security Champion! (We have a learning platform)

@@ -1,6 +1,6 @@
 <!-- .slide: data-background-image="./content/images/appsec-icon.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 
-# OWASP TOP 10 - Workshop
+# OWASP TOP 10 - Juice Shop
 
 Top 10 web security vulnerabilities
 
@@ -58,7 +58,7 @@ Note:
 
 ---
 
-## Who is - AppSec team
+## AppSec
 
 - A team of nine, started 1st February 2020
 - Leading advisor - Security in software development
@@ -70,31 +70,41 @@ development teams to adopt security in their daily work (SSDLC)
 
 Sources:
 
-- https://appsec.equinor.com/ - Documents related to AppSec community in Equinor
+- appsec.equinor.com
 
 </div>
 
 ---
 
-## What is - Security Champions
+## Security Champions
 
 - A community to promote secure development
 - 250 members
 - Aim to train and give tools to it's members to adopt security in their daily work (SSDLC)
 - Be the voice of security within their team
-  - Not their responsibility!
+  - Not only their responsibility!
 - A _safe_ community, there to help
 - Merch!
+
+<div style="text-align:left; font-size:0.5em;">
+
+Sources:
+
+- appsec.equinor.com/security-champion
 
 ---
 
 ## Approx agenda
 
-- 09.00 - 09.50 - Intro, OWASP and Juice-Shop
-- 10.00 - 10.50 - Risk A01
-- 11.00 - 11.50 - Risk A02 and Intro to risk A03
-- 12.00 - 12.30ish - **LUNCH**
-- 12.30 - 13.00 - Risk A03
-- 13.00 - 13.50 - Risk A04 / A05
-- 14.00 - 14.50 - Risk A06 / A07
-- 15.00 - 15.50 - Risk A08 / A09 / A10
+- 08.00 - 08.50 - Intro, OWASP and Juice-Shop
+- 09.05 - 09.55 - Risk A01
+- 10.10 - 11.00 - Risk A02 and Intro to risk A03
+- 11.15 - 12.00ish - **LUNCH??**
+- 12.00 - 12.50 - Risk A03
+- 13.05 - 13.55 - Risk A04 / A05
+- 14.10 - 15.00 - Risk A06 / A07
+- 15.15 - 16.05 - Risk A08 / A09 / A10
+
+---
+
+## Reserve the right to do breaks whenever

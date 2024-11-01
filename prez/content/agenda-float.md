@@ -7,6 +7,6 @@
 
 Note:
 
-- Almost every slide has a section for more info and defences
+- Almost every slide has a section for more info and defenses
 - You will get a PDF file at the end
 - Will be shared in slack group

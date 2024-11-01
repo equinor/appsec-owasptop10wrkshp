@@ -1,12 +1,11 @@
 <!-- .slide: data-background-image="./content/images/owasp-logo-white.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 
-## What - OWASP
+## OWASP
 
 - Mission: **No more insecure software**
 - Open community
   - Open source
 - Develops & nurtures communities through events and chapter meetings worldwide
-- AppSec has a OWASP Project: [Red & Blue TM](https://github.com/OWASP/www-project-rbtm)
 
 Note:
 
