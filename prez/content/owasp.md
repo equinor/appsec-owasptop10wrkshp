@@ -6,6 +6,7 @@
 - Open community
   - Open source
 - Develops & nurtures communities through events and chapter meetings worldwide
+- Hosts several conferences yearly
 
 Note:
 
