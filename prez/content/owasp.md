@@ -1,6 +1,6 @@
 <!-- .slide: data-background-image="./content/images/owasp-logo-white.svg" data-background-size="15%" data-background-position="right 2% top 2%"-->
 
-## What - OWASP
+## OWASP
 
 - Mission: **No more insecure software**
 - Open community
