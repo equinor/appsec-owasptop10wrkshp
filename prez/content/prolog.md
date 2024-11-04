@@ -13,14 +13,14 @@ Top 10 web security vulnerabilities
 - We are not experts <!-- .element: style="font-size:0.9em"-->
 - You are an important audience <!-- .element: style="font-size:0.9em"-->
 - Application security is a broad topic <!-- .element: style="font-size:0.9em"-->
-- Our perspective is depended on experience, personal journey within security and many other factors <!-- .element: style="font-size:0.9em"-->
+- Our perspective is built on experience, personal journey within security and many other factors <!-- .element: style="font-size:0.9em"-->
 - The more you learn, the more you realize how complex security it is <!-- .element: style="font-size:0.9em"-->
 - Please share your thoughts, ideas, experiences <!-- .element: style="font-size:0.9em"-->
 
 Note:
 
-- 1: I'm here to learn and share what I've learned so far
-- 3: This workshop zooms in on vulnerabilities in webapps
+- 1: We are here to learn from your experiences and to teach you what we know.
+- 3: This workshop will primarily focus on the security of webapps.
 
 ---
 
@@ -61,7 +61,6 @@ Note:
 ## AppSec
 
 - A team of nine, started 1st February 2020
-- Leading advisor - Security in software development
 - The team provide training, tools, advice and practical help to enable software
 development teams to adopt security in their daily work (SSDLC)
 - We host and are responsible for the Security Champions Network

@@ -16,3 +16,17 @@
 - A10:2021 - Server-Side Request Forgery (SSRF)
 
 </code>
+
+Note: 
+
+- Examples of each of the vulnerabilities 
+- 1: A user can access another user's account by changing the account ID in the URL.
+- 2: Storing passwords in plain text, allowing attackers to read them if the database is compromised.
+- 3: An attacker uses an SQL injection to bypass login authentication and access the database.
+- 4: The application doesn't limit the number of login attempts, enabling brute-force attacks.
+- 5: Leaving debugging information enabled in a production environment, exposing sensitive details.
+- 6: Using a web library with a known security flaw that allows remote code execution.
+- 7: An attacker can hijack a session because the app doesn’t properly invalidate old session tokens.
+- 8: The app downloads dependencies over HTTP without verifying their integrity, risking tampered files.
+- 9: No alerts are set up for repeated failed login attempts, allowing undetected brute-force attacks.
+- 10: An attacker tricks the server into fetching internal network resources by providing a malicious URL.
