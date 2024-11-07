@@ -1,4 +1,7 @@
-kubectl create -f loadbalancer.yaml# Setting up the Multi-Juicer Kubernetes Cluster
+az group create --location westeurope --name multi-juicer# Setting up the Multi-Juicer Kubernetes Cluster
+
+## Configurations
+- You might want to change the max allowed instances in the
 
 ## 1. Create a resource group
 
@@ -37,5 +40,6 @@ you should see `juice-balancer` and `progress-watchdog`
 ## 10. Find the public IP address
 `kubectl get services`
 
-## 11 - When done - Uninstall Multi-Juicer
-`helm delete multi-juicer`
+## 11. --WHEN DONE-- Delete the group
+`az group delete --name multi-juicer`
+
