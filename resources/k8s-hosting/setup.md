@@ -1,4 +1,4 @@
-az group create --location westeurope --name multi-juicer# Setting up the Multi-Juicer Kubernetes Cluster
+# Setting up the Multi-Juicer Kubernetes Cluster
 
 ## Configurations
 - You might want to change the max allowed instances in the
